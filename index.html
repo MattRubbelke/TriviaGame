@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Patent Law Trivia Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Law & Order: Patent Investigation Unit</h1>
+        <p>This is a kitchy trivia game about Patent Law. The material presented in this game is for informational purposes only and should not be construed as legal advice.</p>
+    <button id="start" class="btn btn-primary btn-lg">Start</button>
+    <div id="trivia">
+        <div id="timer">
+                <h2>Time Remaining: </h2>
+            </div>
+        <div class="question">
+            <p>1. In the US, an inventor can obtain a patent for his/her/their invention if it is: </p>
+            <label class="radio-inline"><input type="radio" name="question-1" class="question-1"> Novel (new) and technologically advanced</label>
+            <label class="radio-inline"><input type="radio" name="question-1" class="question-1" id="correct-1"> Novel (new) and non-obvious</label>
+            <label class="radio-inline"><input type="radio" name="question-1" class="question-1"> Novel (new) and innovative</label>
+            <label class="radio-inline"><input type="radio" name="question-1" class="question-1"> Novel (new) and inventive</label>
+        </div> 
+        <div class="question">
+            <p>2. What are the type(s) of patents available in the United States?</p>
+            <label class="radio-inline"><input type="radio" name="question-2" class="question-2"> Utility</label>
+            <label class="radio-inline"><input type="radio" name="question-2" class="question-2"> Design</label>
+            <label class="radio-inline"><input type="radio" name="question-2" class="question-2"> Plant</label>
+            <label class="radio-inline"><input type="radio" name="question-2" class="question-2" id="correct-2"> All of the above</label>
+        </div>
+        <div class="question">
+            <p>3. How long is the term of a patent?</p>
+            <label class="radio-inline"><input type="radio" name="question-3" class="question-3"> 5 years</label>
+            <label class="radio-inline"><input type="radio" name="question-3" class="question-3"> 10 years</label>
+            <label class="radio-inline"><input type="radio" name="question-3" class="question-3" id="correct-3"> 20 years</label>
+            <label class="radio-inline"><input type="radio" name="question-3" class="question-3"> 50 years</label>
+        </div>
+        <div class="question">
+            <p>4. In the United States, a patent is awarded to the inventor who...</p>
+            <label class="radio-inline"><input type="radio" name="question-4" class="question-4"id="correct-4"> Files first</label>
+            <label class="radio-inline"><input type="radio" name="question-4" class="question-4"> Invents first</label>
+        </div>
+        <div class="question">
+            <p>5. How much time is alotted for an applicant to convert a provisional application to a nonprovisional application?</p>
+            <label class="radio-inline"><input type="radio" name="question-5" class="question-5"> 6 months from the provisional filing date</label>
+            <label class="radio-inline"><input type="radio" name="question-5" class="question-5" id="correct-5"> 12 months from provisional filing date</label>
+            <label class="radio-inline"><input type="radio" name="question-5" class="question-5"> 24 months from the provisional filing date</label>
+            <label class="radio-inline"><input type="radio" name="question-5" class="question-5"> 30 months from the provisional filing date</label>
+        </div>
+        <div class="question">
+            <p>6. How many independent claims can a patent application have without having to pay excess claim fees?</p>
+            <label class="radio-inline"><input type="radio" name="question-6" class="question-6"> 1 claim</label>
+            <label class="radio-inline"><input type="radio" name="question-6" class="question-6"> 2 claims</label>
+            <label class="radio-inline"><input type="radio" name="question-6" class="question-6" id="correct-6"> 3 claims</label>
+            <label class="radio-inline"><input type="radio" name="question-6" class="question-6"> 5 claims</label>
+        </div>
+        <div class="question">
+            <p>7. When an Examiner at the USPTO rejects the claims of patent, what is one of the forms she can issue?</p>
+            <label class="radio-inline"><input type="radio" name="question-7" class="question-7"> An Examiner's Written Opinion</label>
+            <label class="radio-inline"><input type="radio" name="question-7" class="question-7"> Rejections Raised in Claims Made in Patent</label>
+            <label class="radio-inline"><input type="radio" name="question-7" class="question-7"> Exam Report</label>
+            <label class="radio-inline"><input type="radio" name="question-7" class="question-7" id="correct-7"> An Office Action</label>
+        </div>
+        <div class="question">
+            <p>8. A Notice of Allowance informs an applicant the patent is allowed and when it will issue.</p>
+            <label class="radio-inline"><input type="radio" name="question-8" class="question-8"> True</label>
+            <label class="radio-inline"><input type="radio" name="question-8" class="question-8" id="correct-8"> False</label>
+        </div>
+        <button id="submit" class="btn btn-primary btn-lg">Submit</button>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>

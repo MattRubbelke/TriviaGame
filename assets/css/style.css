@@ -1,0 +1,38 @@
+#trivia {
+    display: none;
+}
+
+body{
+    background-image: url("../images/patent.jpg");
+}
+
+#container{
+    margin: 20px auto;
+    max-width: 960px;
+    background: white;
+    padding: 20px;
+}
+
+h1{
+    margin-top: 10px;
+    text-align: center;
+}
+
+p {
+    font-weight: bold;
+}
+
+label{
+    padding: 10px;
+}
+
+.btn{
+    padding: 15px 50px;
+    display: inline-block;
+    align-items: center
+}
+
+#timer{
+    text-align: center;
+    padding: 20px;
+}
